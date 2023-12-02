@@ -1,0 +1,9 @@
+//full adder using Verilog Operator
+module full_adder_(
+    input a,b,cin,
+    output sum,carry
+);
+
+assign {carry,sum} = a+b+cin;
+
+endmodule
